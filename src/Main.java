@@ -7,9 +7,9 @@ public class Main {
         int mile = 20; // Кол-во рублей за одну милю
 
         int bonus;
-        if (ticket > mile) {
+        if (ticket >= mile) {
             bonus = (ticket / mile);
-            System.out.println(bonus);
+            System.out.println(bonus +" бонусов начислено");
         } else {
             System.out.println("Бонусов не начислено");
         }
